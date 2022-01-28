@@ -1,12 +1,12 @@
 # SewBugTips
 Looking for a new hobby? Do you have an interest in sewing? Unsure of sewing terminology? You've reached the right place! Sew Bug Tips is a site which provides SEWING 101 information with images, fabric terminology, reference links and sew much more!
 
-While learning how to code HTML, CSS and JavaScript I was tasked with creating a project to demonstrate my coding skills. I choose to create a site focused on my hobby - sewing! This site is intended to help anyone interested in sewing, but may feel a little intimated by the jargon. In version 1.0, the site focus is on fabric precuts.
+While learning how to code HTML, CSS and JavaScript I was tasked with creating a project to demonstrate my coding skills. I choose to create a site focused on my hobby - sewing! This site is intended to help anyone interested in sewing, but may feel a little intimated by the jargon. In version 1.0, the site focus was on fabric precuts. In version 2.0, the site will include  _____________________ (TBD).
 
-Sew Bug Tips Version 1.0 12/4/2021
+Sew Bug Tips Version 2.0 1/27/2022
 
 
-Hi 👋, I'm Kim Wolf - A novice coder learning how to become a frontend developer
+Hi 👋, I'm Kim Wolf - A novice coder learning how to become a front-end web developer
 
 🔭 I’m currently working on a project to create a website titled SewBugTips
 
@@ -22,7 +22,15 @@ GENERAL USAGE NOTES
 The website is built using HTML5, CSS and JavaScript. 
 
 ---------------------------------------------------------------------------------------
-
+Sew Bug Tips Version 2.0 1/27/2022
+Version 2.0 is a responsive design site with the following project requirements:
+  1) Three media queries, including sizes for mobile, tablet and laptop/desktop - THANKS page displays a different sized image on mobile - also several sections adjust images based on screen display sizes
+  2) Project is specifically named and uploaded in GitHub
+  3) A README file with at least one paragraph explaining the project and listing of project requirements included
+  4) -----more information will be added------
+  ggit
+---------------------------------------------------------------------------------------
+Sew Bug Tips Version 1.0 12/4/2021
 Version 1.0 is a responsive design site with the following project requirements:
   1) Three media queries, including sizes for mobile, tablet and laptop/desktop - THANKS page displays a different sized image on mobile - also several sections adjust images based on screen display sizes
   2) Project is specifically named and uploaded in GitHub
@@ -47,4 +55,4 @@ Contact information regarding this site:
   Developer: Kim Wolf
   Email: SewBug66@yahoo.com
 
-Copyright 2021 SewBugTips. All rights reserved.
+Copyright 2022 SewBugTips. All rights reserved.
