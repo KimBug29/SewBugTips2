@@ -1,7 +1,7 @@
 # SewBugTips
 Looking for a new hobby? Do you have an interest in sewing? Unsure of sewing terminology? You've reached the right place! Sew Bug Tips is a site which provides SEWING 101 information with images, fabric terminology, reference links and sew much more!
 
-While learning how to code HTML, CSS and JavaScript I was tasked with creating a project to demonstrate my coding skills. I choose to create a site focused on my hobby - sewing! This site is intended to help anyone interested in sewing, but may feel a little intimated by the jargon. In version 1.0, the site focus was on fabric precuts. In version 2.0, the site will include  _____________________ (TBD).
+While learning how to code HTML, CSS and JavaScript I was tasked with creating a project to demonstrate my coding skills. I choose to create a site focused on my hobby - sewing! This site is intended to help anyone interested in sewing, but may feel a little intimated by the jargon. In version 1.0, the site focus was on fabric precuts. In version 2.0, the site will use JavaScript to display information as referenced below and the contact us form inputs will be saved.
 
 Sew Bug Tips Version 2.0 1/27/2022
 
@@ -27,10 +27,9 @@ Version 2.0 is a responsive design site with the following project requirements:
   1) Three media queries, including sizes for mobile, tablet and laptop/desktop - THANKS page displays a different sized image on mobile - also several sections adjust images based on screen display sizes
   2) Project is specifically named and uploaded in GitHub
   3) A README file with at least one paragraph explaining the project and listing of project requirements included
-  FEATURE LIST:
-  1) Read and parse an external JSON file into your application and display some data from that file into your app - Refer to preCuts.json for the external information which is displayed in the the FABRIC PRECUTS section
-  2) Create an array with multiple values, retrieve at least one value and use or display it in your application - Refer to preCuts.js
-  3) To be determined....
+  4) Feature 1 - Read and parse an external JSON file into your application and display some data from that file into your app - Refer to preCuts.json for the external information which is displayed in the the FABRIC PRECUTS section
+  5) Feature 2 - Create an array with multiple values, retrieve at least one value and use or display it in your application - Refer to preCuts.js
+  6) Feature 3 - Create a form and save the values to an external file
 ---------------------------------------------------------------------------------------
 Sew Bug Tips Version 1.0 12/4/2021
 Version 1.0 is a responsive design site with the following project requirements:
