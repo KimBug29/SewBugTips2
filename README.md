@@ -16,7 +16,7 @@ Hi 👋, I'm Kim Wolf - A novice coder learning how to become a front-end web de
 
 📫 How to reach me: SewBug66@yahoo.com
 
-👨‍💻 My current project is available at https://github.com/KimBug29/SewBugTips.git
+👨‍💻 My current project is available at https://github.com/KimBug29/SewBugTips2.git
 
 GENERAL USAGE NOTES
 The website is built using HTML5, CSS and JavaScript. 
