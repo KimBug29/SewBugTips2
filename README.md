@@ -22,13 +22,15 @@ GENERAL USAGE NOTES
 The website is built using HTML5, CSS and JavaScript. 
 
 ---------------------------------------------------------------------------------------
-Sew Bug Tips Version 2.0 1/27/2022
+Sew Bug Tips Version 2.0 3/4/2022
 Version 2.0 is a responsive design site with the following project requirements:
   1) Three media queries, including sizes for mobile, tablet and laptop/desktop - THANKS page displays a different sized image on mobile - also several sections adjust images based on screen display sizes
   2) Project is specifically named and uploaded in GitHub
   3) A README file with at least one paragraph explaining the project and listing of project requirements included
-  4) -----more information will be added------
-  ggit
+  FEATURE LIST:
+  1) Read and parse an external JSON file into your application and display some data from that file into your app - Refer to preCuts.json for the external information which is displayed in the the FABRIC PRECUTS section
+  2) Create an array with multiple values, retrieve at least one value and use or display it in your application - Refer to preCuts.js
+  3) To be determined....
 ---------------------------------------------------------------------------------------
 Sew Bug Tips Version 1.0 12/4/2021
 Version 1.0 is a responsive design site with the following project requirements:
