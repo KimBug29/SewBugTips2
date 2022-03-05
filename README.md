@@ -3,7 +3,7 @@ Looking for a new hobby? Do you have an interest in sewing? Unsure of sewing ter
 
 While learning how to code HTML, CSS and JavaScript I was tasked with creating a project to demonstrate my coding skills. I choose to create a site focused on my hobby - sewing! This site is intended to help anyone interested in sewing, but may feel a little intimated by the jargon. In version 1.0, the site focus was on fabric precuts. In version 2.0, the site includes additional JavaScript to display information as referenced below. It also includes a new page which converts inches to cm. Finally, the contact us form inputs will now be saved and the phone number field is now a required field with validation in regular expression.
 
-Sew Bug Tips Version 2.0 3/4/2022
+Sew Bug Tips Version 2.0 - Date 3/4/2022
 
 
 Hi 👋, I'm Kim Wolf - A novice coder learning how to become a front-end web developer
@@ -22,7 +22,7 @@ GENERAL USAGE NOTES
 The website is built using HTML5, CSS and JavaScript. 
 
 ---------------------------------------------------------------------------------------
-Sew Bug Tips Version 2.0 3/4/2022
+Sew Bug Tips Version 2.0 - Date 3/4/2022
 Version 2.0 is a responsive design site with the following project requirements:
   1) Three media queries, including sizes for mobile, tablet and laptop/desktop - THANKS page displays a different sized image on mobile - also several sections adjust images based on screen display sizes
   2) Project is specifically named and uploaded in GitHub
@@ -33,16 +33,16 @@ Version 2.0 is a responsive design site with the following project requirements:
   7) Feature 4 - Build a conversion tool that converts user input to another type and displays it
   8) Feature 5 - Create a form and save the values to an external file
 ---------------------------------------------------------------------------------------
-Sew Bug Tips Version 1.0 12/4/2021
+Sew Bug Tips Version 1.0 - Date 12/4/2021
 Version 1.0 is a responsive design site with the following project requirements:
   1) Three media queries, including sizes for mobile, tablet and laptop/desktop - THANKS page displays a different sized image on mobile - also several sections adjust images based on screen display sizes
   2) Project is specifically named and uploaded in GitHub
   3) A README file with at least one paragraph explaining the project and listing of project requirements included
-  4) CSS feature - Flexbox to organize content - PRECUT IMAGES section
-  5) CSS feature - Use of ".nth-child" to change background color for every other row in table - FABRIC PRECUTS section
-  6) JavaScript feature - Used in responsive navigation hamburger menu - SITE NAVIGATION
-  7) JavaScript feature - Contact Us form, with two validation fields - both name and email are required fields. Also, a Thanks html page which allows user to view their name and email address submission from the CONTACT US FORM
-  8) Multiple additional items from any of the project list requirements:
+  4) CSS Feature 1 - Flexbox to organize content - PRECUT IMAGES section
+  5) CSS Feature 2 - Use of ".nth-child" to change background color for every other row in table - FABRIC PRECUTS section
+  6) JavaScript Feature 3 - Used in responsive navigation hamburger menu - SITE NAVIGATION
+  7) JavaScript Feature 4 - Contact Us form, with two validation fields - both name and email are required fields. Also, a Thanks html page which allows user to view their name and email address submission from the CONTACT US FORM
+  8) Multiple additional feature items from any of the project list requirements:
     a) Contact us form resizes from horizontal to vertical based on screen size
     b) Images within the 'About' section allow site visitors to "zoom"
     c) Site contains different sections with background color changes in sections
