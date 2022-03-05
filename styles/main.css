@@ -92,7 +92,7 @@ h1, h2, h3, h4 {
 
 /*SECTION CONTAINERS TO POSITION SITE WITHIN LARGE MARGINS*/
 .home-section-container, .about-section-container, .projects-section-container, 
-.precut-section-container, .pre_images-section-container, .contact-us-section-container {
+.precut-section-container, .pre_images-section-container, .contact-us-section-container, .converter-container {
     width: 80%;
     margin: auto;
 }
