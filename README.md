@@ -29,7 +29,8 @@ Version 2.0 is a responsive design site with the following project requirements:
   3) A README file with at least one paragraph explaining the project and listing of project requirements included
   4) Feature 1 - Read and parse an external JSON file into your application and display some data from that file into your app - Refer to preCuts.json for the external information which is displayed in the the FABRIC PRECUTS section
   5) Feature 2 - Create an array with multiple values, retrieve at least one value and use or display it in your application - Refer to preCuts.js
-  6) Feature 3 - Create a form and save the values to an external file
+  6) Feature 3 - Implement a regular expression (regex) to ensure a phone number field is always stored and displayed in the same format  [Use of pattern attribute which takes a regular expression to validate the phone number input]
+  7) Feature 4 - Create a form and save the values to an external file
 ---------------------------------------------------------------------------------------
 Sew Bug Tips Version 1.0 12/4/2021
 Version 1.0 is a responsive design site with the following project requirements:

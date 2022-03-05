@@ -27,6 +27,24 @@ return true;
 
 }
 
+//newCodeForPhoneValidation-AsOfMarch2022
+var phone_input = document.getElementById("contactPhone");
+
+phone_input.addEventListener('input', () => {
+  phone_input.setCustomValidity('');
+  phone_input.checkValidity();
+});
+
+phone_input.addEventListener('invalid', () => {
+  if(phone_input.value === '') {
+    phone_input.setCustomValidity('Enter phone number!');
+  } else {
+    phone_input.setCustomValidity('Enter phone number in this format: 123-456-7890');
+  }
+});
+//endNewCodeForPhoneValidation-KW
+
+
 function thanksFunction() {
 const queryString = window.location.search;
 //console.log(queryString);
@@ -36,4 +54,3 @@ var urlContactName = urlParams.get('name');
 var urlContactEmail = urlParams.get('email');
 document.getElementById("thanksText").innerHTML = "Thank you <strong>"+urlContactName+"</strong> for your message. We will get back to you at "+urlContactEmail;
 }
-
