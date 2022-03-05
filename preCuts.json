@@ -2,7 +2,9 @@
     "preCuts":[
         {
             "name": "Honey Buns",
-            "description": "1.5 in x Width of Fabric (WOF)"
+            "description": "1.5 in x Width of Fabric (WOF)",
+            "image": "images/honey_bun.jpg",
+            "alt": "Honey Buns"      
         },
         {
             "name": "Jelly Rolls",
