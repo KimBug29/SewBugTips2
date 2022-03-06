@@ -31,8 +31,8 @@ Version 2.0 is a responsive design site with the following project requirements:
   5) Feature 2 - Create an array with multiple values, retrieve at least one value and use or display it in your application - Refer to preCuts.js which now displays content in the PRECUT IMAGES section
   6) Feature 3 - Implement a regular expression (regex) to ensure a phone number field is always stored and displayed in the same format  [Use of pattern attribute which takes a regular expression to validate the phone number input] - Refer to Contact Us form - specifically the phone input field
   7) Feature 4 - Build a conversion tool that converts user input to another type and displays it - Refer to the FABRIC PRECUTS section  
-  8) Feature 5 - Calculate and display data based on an external factor [Get current date and display how many days remaining until an event]
-  9) Feature 6 - Create a form and save the values to an external file
+  8) Feature 5 - Calculate and display data based on an external factor [Get current date and display how many days remaining until an event] - Refer to the EXPO section to view the countdown clock
+  
 ---------------------------------------------------------------------------------------
 Sew Bug Tips Version 1.0 - Date 12/4/2021
 Version 1.0 is a responsive design site with the following project requirements:

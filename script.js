@@ -46,6 +46,7 @@ phone_input.addEventListener('invalid', () => {
 });
 //End of New Code For Phone Validation - regex - KW
 
+
 //Code For Countdown-As of March 2022
 function getTimeRemaining(endtime) {
     const total = Date.parse(endtime) - Date.parse(new Date());
