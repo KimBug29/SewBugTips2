@@ -1,11 +1,13 @@
-//hambuger menu;
+//Hambuger Menu code
 const toggleButton = document.getElementsByClassName('toggle-button')[0]
 const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 
 toggleButton.addEventListener('click', () => {
     navbarLinks.classList.toggle('active')
 })
+//End of Hambuger Menu code - KW
 
+//Contact Us Form code - Version 1 
 function contactUsFormValidate(form){
 
 //var form1 = document.forms[form];
@@ -27,7 +29,7 @@ return true;
 
 }
 
-//newCodeForPhoneValidation-AsOfMarch2022
+//New Code For Phone Validation - regex - As of March 2022
 var phone_input = document.getElementById("contactPhone");
 
 phone_input.addEventListener('input', () => {
@@ -42,27 +44,52 @@ phone_input.addEventListener('invalid', () => {
     phone_input.setCustomValidity('Enter phone number in this format: 123-456-7890');
   }
 });
-//endNewCodeForPhoneValidation-KW
+//End of New Code For Phone Validation - regex - KW
 
-
-//newCodeForDateTime-AsOfMarch2022
-function display_ct5() {
-    var x = new Date()
-    var ampm = x.getHours( ) >= 12 ? ' PM' : ' AM';
+//Code For Countdown-As of March 2022
+function getTimeRemaining(endtime) {
+    const total = Date.parse(endtime) - Date.parse(new Date());
+    const seconds = Math.floor((total / 1000) % 60);
+    const minutes = Math.floor((total / 1000 / 60) % 60);
+    const hours = Math.floor((total / (1000 * 60 * 60)) % 24);
+    const days = Math.floor(total / (1000 * 60 * 60 * 24));
     
-    var x1=x.getMonth() + 1+ "/" + x.getDate() + "/" + x.getFullYear(); 
-    x1 = x1 + " - " +  x.getHours( )+ ":" +  x.getMinutes() + ":" +  x.getSeconds() + ":" + ampm;
-    document.getElementById('ct5').innerHTML = x1;
-    display_c5();
-     }
-     function display_c5(){
-    var refresh=1000; // Refresh rate in milli seconds
-    mytime=setTimeout('display_ct5()',refresh)
+    return {
+      total,
+      days,
+      hours,
+      minutes,
+      seconds
+    };
+  }
+  
+  function initializeClock(id, endtime) {
+    const clock = document.getElementById(id);
+    const daysSpan = clock.querySelector('.days');
+    const hoursSpan = clock.querySelector('.hours');
+    const minutesSpan = clock.querySelector('.minutes');
+    const secondsSpan = clock.querySelector('.seconds');
+  
+    function updateClock() {
+      const t = getTimeRemaining(endtime);
+  
+      daysSpan.innerHTML = t.days;
+      hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+      minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+      secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+  
+      if (t.total <= 0) {
+        clearInterval(timeinterval);
+      }
     }
-    display_c5()
-
-//endNewCodeForDateTime-KW
-
+  
+    updateClock();
+    const timeinterval = setInterval(updateClock, 1000);
+  }
+  
+  const deadline = new Date(Date.parse(new Date()) + 222 * 24 * 60 * 60 * 1000);
+  initializeClock('clockdiv', deadline);  
+//End of Code For Countdown - KW
 
 function thanksFunction() {
 const queryString = window.location.search;

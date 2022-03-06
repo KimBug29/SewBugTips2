@@ -8,7 +8,8 @@ fetch(preCuts)
    
     .map((fabricPreCuts) => {
         return `
-        <div class="flexbox-item">     
+        <div class="flexbox-item">   
+        <img src="${fabricPreCuts.image}" alt="${fabricPreCuts.alt}" />
         <h4>${fabricPreCuts.name}</h4>
         <span>${fabricPreCuts.description}</span>
         </div>

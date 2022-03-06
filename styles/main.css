@@ -92,7 +92,7 @@ h1, h2, h3, h4 {
 
 /*SECTION CONTAINERS TO POSITION SITE WITHIN LARGE MARGINS*/
 .home-section-container, .about-section-container, .projects-section-container, 
-.precut-section-container, .pre_images-section-container, .contact-us-section-container, .converter-container {
+.precut-section-container, .pre_images-section-container, .contact-us-section-container, .converter-container, .expo-container {
     width: 80%;
     margin: auto;
 }
@@ -130,6 +130,61 @@ section p {
 #about, #precuts, #contact {
     background-color: #E2E8F0;
 }
+
+
+/*SECTION: EXPO*/
+.expo-section-container span {
+    display:block;
+    text-align: justify;
+    margin-bottom: 2rem; 
+}
+.flex-container-expo {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: baseline;   
+}
+
+.expo-section-container img {
+    margin-bottom: 1rem; 
+    margin-top: 1rem; 
+    box-shadow: 0 10px 15px 0 rgb(43, 46, 34); 
+}
+
+/*SECTION: COUNTDOWN*/
+
+.coundown-content span {
+    display:flex;
+    justify-content: center;
+}
+    #clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    }
+    
+    #clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #00BF96;
+    display: inline-block;
+    }
+    
+    #clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #00816A;
+    display: inline-block;
+    }
+    
+    .smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+    }
+
 
 /*SECTION: ABOUT*/
 
