@@ -88,7 +88,7 @@ function getTimeRemaining(endtime) {
     const timeinterval = setInterval(updateClock, 1000);
   }
   
-  const deadline = new Date(Date.parse(new Date()) + 222 * 24 * 60 * 60 * 1000);
+  const deadline = new Date(Date.parse(new Date()) + 221 * 24 * 60 * 60 * 1000);
   initializeClock('clockdiv', deadline);  
 //End of Code For Countdown - KW
 
