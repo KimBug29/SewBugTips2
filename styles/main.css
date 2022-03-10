@@ -127,7 +127,7 @@ section p {
 }
 
 /*SECTION: BACKGROUND COLOR CHANGE & CONTENT SYLING*/
-#about, #precuts, #contact {
+#about, #precuts, #contact, #expo {
     background-color: #E2E8F0;
 }
 
@@ -139,11 +139,13 @@ section p {
     margin-bottom: 1rem; 
 }
 
-.expo-section-container img {
-    display:flex;
-    justify-content: center;
-    margin-bottom: 1rem; 
-    margin-top: 1rem; 
+.expo-content img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    max-width: 100%;
+    height: auto; 
     box-shadow: 0 10px 15px 0 rgb(43, 46, 34); 
 }
 
