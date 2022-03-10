@@ -139,6 +139,7 @@ section p {
     margin-bottom: 1rem; 
 }
 
+
 .expo-content img {
     display: flex;
     margin-left: auto;
@@ -147,6 +148,12 @@ section p {
     max-width: 100%;
     height: auto; 
     box-shadow: 0 10px 15px 0 rgb(43, 46, 34); 
+}
+
+.expo-content span {
+    display:block;
+    text-align: justify;
+    margin-bottom: 2rem; 
 }
 
 /*SECTION: COUNTDOWN*/
