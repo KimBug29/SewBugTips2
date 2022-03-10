@@ -32,6 +32,8 @@ Version 2.0 is a responsive design site with the following project requirements:
   6) Feature 3 - Implement a regular expression (regex) to ensure a phone number field is always stored and displayed in the same format  [Use of pattern attribute which takes a regular expression to validate the phone number input] - Refer to Contact Us form - specifically the phone input field
   7) Feature 4 - Build a conversion tool that converts user input to another type and displays it - Refer to the FABRIC PRECUTS section  
   8) Feature 5 - Calculate and display data based on an external factor [Get current date and display how many days remaining until an event] - Refer to the EXPO section to view the countdown clock
+  9) Feature 6 - Create and use a function that accepts two or more values (parameters), 
+calculates or determines a new value based on those inputs, and returns a new value  - Refer to functions used to calculate date
   
 ---------------------------------------------------------------------------------------
 Sew Bug Tips Version 1.0 - Date 12/4/2021

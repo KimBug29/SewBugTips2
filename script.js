@@ -88,9 +88,11 @@ function getTimeRemaining(endtime) {
     const timeinterval = setInterval(updateClock, 1000);
   }
   
-  const deadline = new Date(Date.parse(new Date()) + 221 * 24 * 60 * 60 * 1000);
-  initializeClock('clockdiv', deadline);  
+  //const deadline = new Date(Date.parse(new Date()) + 217 * 24 * 60 * 60 * 1000);
+  initializeClock('clockdiv', "Oct 13, 2022 09:00:00");  
 //End of Code For Countdown - KW
+
+
 
 function thanksFunction() {
 const queryString = window.location.search;
