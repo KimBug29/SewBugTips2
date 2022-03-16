@@ -16,13 +16,13 @@ Hi 👋, I'm Kim Wolf - A novice coder learning how to become a front-end web de
 
 📫 How to reach me: SewBug66@yahoo.com
 
-👨‍💻 My current project is available at https://kimbug29.github.io/SewBugTips2 Or in Github at https://github.com/KimBug29/SewBugTips2.git
+👨‍💻 My current project is available at SewBugTips.com which will redirect to https://kimbug29.github.io/SewBugTips2 Or in Github at https://github.com/KimBug29/SewBugTips2.git
 
 GENERAL USAGE NOTES
 The website is built using HTML5, CSS and JavaScript. 
 
 ---------------------------------------------------------------------------------------
-Sew Bug Tips Version 2.0 - Date 3/5/2022
+Sew Bug Tips Version 2.0 - Date 3/16/2022
 Version 2.0 is a responsive design site with the following project requirements:
   1) Three media queries, including sizes for mobile, tablet and laptop/desktop - THANKS page displays a different sized image on mobile - also several sections adjust images based on screen display sizes
   2) Project is specifically named and uploaded in GitHub
