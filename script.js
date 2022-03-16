@@ -41,7 +41,7 @@ phone_input.addEventListener('invalid', () => {
   if(phone_input.value === '') {
     phone_input.setCustomValidity('Enter phone number!');
   } else {
-    phone_input.setCustomValidity('Enter phone number in this format: 123-456-7890');
+    phone_input.setCustomValidity('Phone number format: 123-456-7890');
   }
 });
 //End of New Code For Phone Validation - regex - KW
