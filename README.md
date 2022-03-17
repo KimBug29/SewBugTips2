@@ -3,7 +3,7 @@ Looking for a new hobby? Do you have an interest in sewing? Unsure of sewing ter
 
 While learning how to code HTML, CSS and JavaScript I was tasked with creating a project to demonstrate my coding skills. I choose to create a site focused on my hobby - sewing! This site is intended to help anyone interested in sewing, but may feel a little intimated by the jargon. In version 1.0, the site focus was on fabric precuts. In version 2.0, the site includes additional JavaScript to display information as referenced below. It also includes a new page which converts inches to cm. The contact us form inputs will now be saved and the phone number field is now a required field with validation in regular expression.
 
-Sew Bug Tips Version 2.0 - Date 3/5/2022
+Sew Bug Tips Version 2.0 - Date 3/16/2022
 
 
 Hi 👋, I'm Kim Wolf - A novice coder learning how to become a front-end web developer
