@@ -644,21 +644,21 @@ Desktop fonts should be between 16 - 20px
     
     #clockdiv > div{
     padding: 0.45rem 1rem;
-    border-radius: 3px;
+    border-radius: .15rem;
     background: #0687F7;
     display: inline-block;
     }
     
     #clockdiv div > span{
     padding: 0.45rem 1rem;
-    border-radius: 3px;
+    border-radius: .15rem;
     background: #365a91;
     display: inline-block;
     }
     
     .smalltext{
-    padding-top: 5px;
-    font-size: .75rem;
+    padding-top: .5rem;
+    font-size: .5rem;
     }
 
 
