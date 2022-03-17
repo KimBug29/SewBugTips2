@@ -627,10 +627,40 @@ Desktop fonts should be between 16 - 20px
         padding: 1.5rem;
     }
     
-    .countdown-content {
-        font-size: 1.125rem;
-        padding: 0.45rem 1.2rem;
+    /*SMART PHONES - UPDATE FOR COUNTDOWN*/
+    .countdown-content 
+    span {
+    display:flex;
+    justify-content: center;
     }
+    #clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 50;
+    text-align: center;
+    font-size: .75rem;
+    }
+    
+    #clockdiv > div{
+    padding: 0.45rem 1rem;
+    border-radius: 3px;
+    background: #0687F7;
+    display: inline-block;
+    }
+    
+    #clockdiv div > span{
+    padding: 0.45rem 1rem;
+    border-radius: 3px;
+    background: #365a91;
+    display: inline-block;
+    }
+    
+    .smalltext{
+    padding-top: 5px;
+    font-size: .75rem;
+    }
+
 
     .input {
         padding: 0.45rem 1.2rem;
