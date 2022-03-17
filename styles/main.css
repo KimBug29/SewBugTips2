@@ -627,6 +627,10 @@ Desktop fonts should be between 16 - 20px
         padding: 1.5rem;
     }
     
+    .countdown-container {
+        padding: 1.5rem;
+    }
+
     .input {
         padding: 0.45rem 1.2rem;
     }
