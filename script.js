@@ -47,7 +47,7 @@ phone_input.addEventListener('invalid', () => {
 //End of New Code For Phone Validation - regex - KW
 
 
-//Code For Countdown-As of March 2022
+//Code For Countdown-As of November 2023
 function getTimeRemaining(endtime) {
     const total = Date.parse(endtime) - Date.parse(new Date());
     const seconds = Math.floor((total / 1000) % 60);
@@ -89,7 +89,7 @@ function getTimeRemaining(endtime) {
   }
   
   //const deadline = new Date(Date.parse(new Date()) + 217 * 24 * 60 * 60 * 1000);
-  initializeClock('clockdiv', "Oct 13, 2022 09:00:00");  
+  initializeClock('clockdiv', "Oct 10, 2024 09:00:00");  
 //End of Code For Countdown - KW
 
 
